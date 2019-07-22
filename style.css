@@ -1,0 +1,93 @@
+html, body, p {
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+.form-input, textarea, select {
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  width: 900px;
+  margin-left: 430px;
+
+}
+label {
+  display: block;
+  padding: 10px 0;
+}
+.form-input {
+  border-bottom: 2px solid #333;
+  transition: 0.3s;
+  padding: 5px 0;
+}
+.form-input:focus {
+  border-color: #ddd;
+}
+
+textarea,select {
+  border: 2px solid #333;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 30px;
+  background-color: #333;
+  border: 2px solid #333;
+  color: white;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: #333;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body{
+  background-image: linear-gradient(to bottom, rgba(78, 205, 196, 0.5), rgba(85, 98, 112, 0.3)),url(1000.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+h2{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+#isi {
+  color: yellow;
+  font-size: 30px;
+  text-align: center;
+}
+#isi2 {
+  color: red;
+  font-size: 35px;
+  text-align: center;
+}
+.form{
+  background-color: #33cccc;
+  width: 90%;
+}
